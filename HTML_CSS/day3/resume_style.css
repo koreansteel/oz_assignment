@@ -103,3 +103,23 @@ body {
         font-size: 28px;
     }
 }
+/* 프로필 Flexbox 정렬 */
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
