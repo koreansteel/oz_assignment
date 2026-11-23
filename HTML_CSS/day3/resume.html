@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>양현의 이력서 | Resume</title>
+    <link rel="stylesheet" href="resume_style.css">
 </head>
 <body>
+
+    <nav class="navbar">
+        <div class="logo">STEEL PORTFOLIO</div>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#awards">Awards</a></li>
+        </ul>
+    </nav>
+
     <header>
         <h1>양현의 이력서</h1>
         <p>꾸준한 도전과 실행으로 성장하는 사람</p>
@@ -13,10 +26,13 @@
     </header>
 
     <main>
-        <section>
-            <h2>프로필</h2>
-            <!-- 같은 폴더에 본인의 사진을 profile.jpg라는 이름으로 저장하세요. -->
-            <img src="profile.jpg" alt="드래곤볼 손오공 프로필 사진" width="160">
+<section id="about" class="section">
+    <h2>프로필</h2>
+
+    <div class="profile">
+        <img src="profile.jpg" alt="프로필 사진" width="160">
+
+        <div class="profile-info">
             <p><strong>이름:</strong> 양현</p>
             <p><strong>이메일:</strong> koreansteel88@gmail.com</p>
             <p><strong>관심 분야:</strong> 헬스케어 AI, 웹 개발, 데이터 분석</p>
@@ -25,7 +41,9 @@
                     GitHub Repository 바로가기
                 </a>
             </p>
-        </section>
+        </div>
+    </div>
+</section>
 
         <hr>
 
@@ -43,7 +61,7 @@
 
         <hr>
 
-        <section>
+        <section id="skills">
             <h2>핵심 역량 및 관심 기술</h2>
             <ul>
                 <li>HTML 문서 구조 및 기본 태그 활용</li>
@@ -55,7 +73,7 @@
 
         <hr>
 
-        <section>
+        <section id="projects">
             <h2>주요 경험 및 활동</h2>
             <ol>
                 <li>
@@ -75,7 +93,7 @@
 
         <hr>
 
-        <section>
+        <section id="awards">
             <h2>수상 경력</h2>
             <ul>
                 <li>2024 Mr. Seoul Classic Bodybuilding 클래식 보디빌딩 1위</li>
